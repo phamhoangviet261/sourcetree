@@ -143,3 +143,6 @@ class LinkedList {
       return this;
     }
 }
+
+
+const trySmt = data => data.every((e) => e.value == 0)
