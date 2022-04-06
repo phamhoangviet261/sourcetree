@@ -143,3 +143,9 @@ class LinkedList {
       return this;
     }
 }
+
+class Stack extends LinkedList{
+    constructor(){
+        super()
+    }
+}
