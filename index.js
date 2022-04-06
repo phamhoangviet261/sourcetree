@@ -1,25 +1,6 @@
-class Node {
-    constructor(data) {
-      this.data = data;
-      this.nextElement = null;
-    }
-  }
-
 class LinkedList {
     constructor() {
       this.head = null;
-    }
-  
-    //Insertion At Head  
-    insertAtHead(newData) {
-      let tempNode = new Node(newData);
-      tempNode.nextElement = this.head;
-      this.head = tempNode;
-      return this; //returning the updated list
-    }
-  
-    isEmpty() {
-      return (this.head == null);
     }
   
     //function to print the linked list
